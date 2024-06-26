@@ -2,6 +2,7 @@ const result = document.getElementById("result");
 const form = document.querySelector("form");
 const input = document.querySelector("input");
 
+
 let meals = [];
 async function fetchMeals(search) {
   await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
