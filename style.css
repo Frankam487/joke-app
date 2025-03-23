@@ -32,11 +32,13 @@ input {
   font-size: 1.2rem;
   transition: 0.2s;
 }
+
+
 input:focus {
   border: 1px solid #16d9e7;
 }
 #result {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   padding-top: 110px;
 }
